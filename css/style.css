@@ -1,0 +1,276 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+}
+
+/* UTILITIES */
+.pd_0 {
+  padding: 0px;
+}
+
+.font_w_600 {
+  font-weight: 600;
+}
+
+.font_w_500 {
+  font-weight:500;
+}
+
+
+/* NAVBAR */
+nav {
+  background-color: #fff;
+}
+
+nav img {
+  width: 150px;
+  margin-top: 9px;
+}
+
+nav ul {
+  line-height: 50px;
+  margin-bottom: 0px;
+}
+
+nav ul li i {
+  font-size: 15px;
+  vertical-align: middle;
+  padding-left: 5px
+}
+
+.btn-default {
+  color: rgb(0, 0, 255);
+  border-color: rgb(0, 0, 255);
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url('../assets/bg-banner-home.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.jumbotron p {
+  color: #fff;
+  margin-right: 70px;
+  margin-bottom:0px;
+  opacity: 0.6;
+}
+
+.box_bg {
+  background: #fff;
+  border-radius: 5px;
+  height: 350px;
+  width: 455px;
+  margin-left: 30px;
+}
+
+.jumbotron .box_bg h2:nth-child(1) {
+  margin-top: 35px;
+}
+
+.jumbotron .box_bg h2:nth-child(2) {
+  color: rgba(0, 0, 255, 0.8);
+  margin-top: 0px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: 5px 16px;
+  font-size: 14px;
+}
+
+.jumbotron .box_bg button:nth-last-child(2) {
+  color: #000;
+  border-color: #bbb;
+  position: relative;
+}
+
+button img {
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 22%
+}
+
+.jumbotron .box_bg p {
+  font-size: 13px;
+  color: #000;
+  opacity: 1;
+  margin: 0px;
+  padding-top: 17px;
+  font-weight: 500;
+}
+
+.jumbotron .box_bg p a {
+  text-decoration: underline;
+}
+
+
+/* SECTION ONE */
+.brand_sec {
+  background-color: #f3f5f9;
+}
+
+.brand_sec p {
+  opacity: 0.7;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+.brand_sec img {
+  width: 160px;
+}
+
+.brand_image {
+  line-height: 10;
+}
+
+.brand_p {
+  padding-bottom: 30px;
+}
+
+
+/* SECTION TWO */
+.sc2-1{
+  margin-top: 50px;
+  height: 50px;
+  background: blue;
+}
+
+.sc2-2{
+  height: 200px;
+  background: orange;
+}
+
+.sc2-3{
+  height: 100px;
+  background: pink;
+}
+
+.sc2-4{
+  height: 100px;
+  background: lightblue;
+}
+
+.sc2-5{
+  height: 100px;
+  background: yellow;
+}
+
+.sc2-6{
+  height: 100px;
+  background: black;
+}
+
+
+/* SECTION THREE */
+.sc3-1{
+  margin-top: 50px;
+  height: 50px;
+  background: black;
+}
+
+.sc3-2{
+  height: 200px;
+  background: blue;
+}
+
+.sc3-3{
+  height: 50px;
+  background: pink;
+}
+
+
+/* SECTION FOUR */
+.sc4-1{
+  margin-top: 50px;
+  height: 50px;
+  background: orange;
+}
+
+.sc4-2{
+  height: 150px;
+  background: pink;
+}
+
+.sc4-3{
+  height: 150px;
+  background: black;
+}
+
+.sc4-4{
+  height: 150px;
+  background: blue;
+}
+
+
+/* SECTION FIVE */
+.sc5-1{
+  margin-top: 50px;
+  height: 50px;
+  background: black;
+}
+
+.sc5-2{
+  height: 150px;
+  background: blue;
+}
+
+.sc5-3{
+  height: 150px;
+  background: orange;
+}
+
+
+/* SECTION SIX = SECTION THREE*/
+
+
+/* SECTION SEVEN */
+.sc7-1{
+  margin-top: 50px;
+  height: 50px;
+  background: black;
+}
+
+.sc7-2{
+  height: 50px;
+  background: blue;
+}
+
+
+/* FOOTER */
+.mg {
+  margin-top: 50px;
+}
+
+.foot1{
+  height: 150px;
+  background: black;
+}
+
+.foot2{
+  height: 150px;
+  background: orange;
+}
+
+.foot3{
+  height: 150px;
+  background: blue;
+}
+
+.foot4{
+  height: 150px;
+  background: orange;
+}
+
+.foot5{
+  height: 150px;
+  background: blue;
+}
