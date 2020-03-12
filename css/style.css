@@ -198,9 +198,14 @@ button img {
   font-size: 17px;
 }
 
-.sec_two_info {
+.sec_two_info_first {
   padding-right: 56px;
   padding-left: 56px;
+}
+
+.sec_two_info_second {
+  padding-left: 0px;
+  padding-right: 94px
 }
 
 
