@@ -8,12 +8,47 @@ body {
   padding: 0px;
 }
 
+.pd_top_40 {
+  padding-top: 40px;
+}
+
+.pd_top_60 {
+  padding-top: 60px;
+}
+
+.pd_bottom_50 {
+  padding-bottom: 50px;
+}
+
+
 .font_w_600 {
   font-weight: 600;
 }
 
 .font_w_500 {
   font-weight:500;
+}
+
+.bg_section {
+  background-color: #f3f5f9;
+}
+
+.color_p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.width_banner {
+  width: 450px
+}
+
+.arrow_banner_left {
+  padding-right: 10px;
+  font-size: 34px;
+}
+
+.arrow_banner_right {
+  padding-left: 10px;
+  font-size: 34px;
 }
 
 
@@ -69,7 +104,7 @@ nav ul li i {
   border-radius: 5px;
   height: 350px;
   width: 455px;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .jumbotron .box_bg h2:nth-child(1) {
@@ -114,22 +149,22 @@ button img {
 
 
 /* SECTION ONE */
-.brand_sec {
-  background-color: #f3f5f9;
+.brand_image {
+  line-height: 10;
 }
 
 .brand_sec p {
-  opacity: 0.7;
   padding-top: 30px;
   margin-bottom: 0px;
 }
 
-.brand_sec img {
-  width: 160px;
+.sec_two_list {
+  border-left: 2px solid rgba(0, 0, 0, 0.6);
+  line-height: 35px;
 }
 
-.brand_image {
-  line-height: 10;
+.brand_sec img {
+  width: 150px;
 }
 
 .brand_p {
@@ -138,54 +173,63 @@ button img {
 
 
 /* SECTION TWO */
-.sc2-1{
-  margin-top: 50px;
-  height: 50px;
-  background: blue;
+.sec_two_title {
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
-.sc2-2{
-  height: 200px;
-  background: orange;
+.sec_two_title h2 {
+  font-size: 33px;
 }
 
-.sc2-3{
-  height: 100px;
-  background: pink;
+.sec_two_title p {
+  font-size: 20px;
+  /* margin-right: 63px;
+  margin-left: 63px; */
 }
 
-.sc2-4{
-  height: 100px;
-  background: lightblue;
+.sec_two_list {
+  border-left: 2px solid rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  padding-left: 10px;
 }
 
-.sc2-5{
-  height: 100px;
-  background: yellow;
+.sec_two_list ul li {
+  font-size: 17px;
 }
 
-.sc2-6{
-  height: 100px;
-  background: black;
+.sec_two_info {
+  padding-right: 56px;
+  padding-left: 56px;
 }
 
 
 /* SECTION THREE */
-.sc3-1{
-  margin-top: 50px;
-  height: 50px;
-  background: black;
+.sec_three_title h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 
-.sc3-2{
-  height: 200px;
-  background: blue;
+.sec_three_title p {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.sec_three_sm_text {
+  padding-top: 20px;
+  margin-bottom: 0px;
 }
 
-.sc3-3{
-  height: 50px;
-  background: pink;
+.sec_three_sm_dot {
+  padding-bottom: 30px;
 }
+
+.sec_three_sm_dot li {
+  color: rgba(0, 0, 255, 0.8);
+  font-size: 8px;
+  padding-left: 0px;
+}
+
 
 
 /* SECTION FOUR */
