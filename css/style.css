@@ -72,8 +72,8 @@ body {
   color: #fff;
 }
 
-.width_banner {
-  width: 500px
+.pos_rel {
+  position: relative;
 }
 
 .arrow_banner_left {
@@ -137,9 +137,9 @@ nav ul li i {
 .box_bg_one {
   background: #fff;
   border-radius: 5px;
-  height: 350px;
+  /* height: 350px;
   width: 455px;
-  margin-left: 15px;
+  margin-left: 15px; */
 }
 
 .jumbotron .box_bg_one h2:nth-child(1) {
@@ -208,10 +208,10 @@ button img {
 
 
 /* SECTION TWO */
-.sec_two_title {
+/* .sec_two_title {
   padding-top: 40px;
   padding-bottom: 50px;
-}
+} */
 
 .sec_two_title p {
   font-size: 20px;
@@ -229,7 +229,11 @@ button img {
   font-size: 17px;
 }
 
-.sec_two_info_first {
+.sec_two_info {
+  padding-right: 90px;
+}
+
+/* .sec_two_info_first {
   padding-right: 56px;
   padding-left: 56px;
 }
@@ -237,7 +241,7 @@ button img {
 .sec_two_info_second {
   padding-left: 0px;
   padding-right: 94px
-}
+} */
 
 
 /* SECTION THREE */
@@ -266,12 +270,16 @@ button img {
 }
 
 .slider_one img {
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.slider_one img::before {
-  content: "\f104";
+.slider_one i {
+  position: absolute;
+  top: 50%;
+  left: %;
+  transform: translatex(-50%);
 }
 
 
@@ -287,7 +295,7 @@ tr td:nth-child(2) {
   color: rgba(255, 255, 255, 0.65);
 }
 
-table tr td .border {
+table tr:first-child td {
   border-top: 0px;
 }
 
@@ -296,12 +304,26 @@ table tr td .border {
 .box_bg_two {
   background: #fff;
   border-radius: 5px;
-  height: 305px;
-  width: 580px;
+  /* height: 305px;
+  width: 580px; */
 }
 
 .slider_two p {
   font-size: 20px;
+}
+
+.slider_two .left{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateX(-50%);
+}
+
+.slider_two .right{
+  position: absolute;
+  top: 50%;
+  right: -4.5%;
+  transform: translate(-50%, +4.5%);
 }
 
 
@@ -340,4 +362,161 @@ table tr td .border {
   padding-top: 10px;
   color: rgba(255, 255, 255, 0.4);
   font-size: 15px;
+}
+
+
+/* NAVBAR BOTTOM */
+#help {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+}
+
+.tool {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  padding: 7px;
+  background: #fff;
+  line-height: 1.45;
+  border-radius: 5px;
+  /* Ombreggiatura */
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  /* box-shadow: 0 0 8px 5px rgba(0,0,0, .1); */
+}
+
+.tool::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  /* Rotazione */
+  transform: rotate(45deg);
+}
+
+.tool p {
+  text-align: left;
+  margin-bottom: 0px;
+  color: #212063;
+}
+
+#help img {
+  width: 65px;
+  height: 55px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #0042eb;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+
+/* RESPONSIVE */
+/* MEDIUM DEVICES */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  /* JUMBOTRON */
+  .jumbotron h1 {
+    margin-right: 0px;
+    font-size: 48px;
+  }
+}
+
+
+ /* SMALL DEVICES */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  /* NAVBAR */
+  .hamburger {
+    padding-top: 13px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron h1 {
+    margin-right: 0px;
+    font-size: 37px;
+  }
+
+  /* SECTIONE ONE */
+  .brand_sec img {
+    width: 110px;
+  }
+
+  .box_info_three {
+    margin-left: 190px;
+  }
+
+  /* SECTION THREE */
+  .slider_one img {
+  }
+
+}
+
+
+/* EXTRASMALL DEVICES */
+@media all and (max-width: 767px) {
+  /* NAVBAR */
+  .hamburger {
+    padding-right: 10px;
+    padding-top: 13px;
+  }
+
+  /* JUMBOTRON */
+  .box_bg_one {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* SECTION ONE */
+  .brand_sec img {
+    width: 135px;
+  }
+
+  /* SECTION TWO */
+  .sec_two_list {
+    margin-left: 15px;
+  }
+
+  .sec_two_info {
+    padding-bottom: 20px;
+  }
+
+  .box_info_one {
+    padding-top: 25px;
+  }
+
+  .box_info_two {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* SECTION THREE */
+  .slider_one img {
+    max-width: 100%;
+  }
+
+  .arrow_banner_left,
+  .arrow_banner_right {
+    display: none;
+  }
+
+
+  /* SECTION SIX */
+  .slider_two img {
+    max-width: 100%;
+  }
+
+  .arrow_banner_left,
+  .arrow_banner_right {
+    display: none;
+  }
+
+  .slider_two p {
+    font-size: 14px;
+  }
+
+
+
+
 }

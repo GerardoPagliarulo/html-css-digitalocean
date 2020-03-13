@@ -19,10 +19,15 @@
       <nav class="navbar-fixed-top">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 text-left">
+            <div class="col-md-3 col-sm-10 col-xs-10 text-left">
               <img src="assets/do-logo.png" alt="Digitalocean Logo">
             </div>
-            <div class="col-md-5">
+            <div class="hidden-lg hidden-md col-sm-2 col-xs-2 text-right">
+              <div class="hamburger">
+                <a href="#"><i class="fas fa-bars"></i></a>
+              </div>
+            </div>
+            <div class="col-md-5 hidden-sm hidden-xs">
               <ul class="list-inline font_w_600">
                 <li>Products <i class="fas fa-angle-down"></i></li>
                 <li>Customers</li>
@@ -30,7 +35,7 @@
                 <li>Pricing</li>
               </ul>
             </div>
-            <div class="col-md-4 text-right">
+            <div class="col-md-4 hidden-sm hidden-xs text-right">
               <ul class="list-inline font_w_600">
                 <li>Docs</li>
                 <li>
@@ -50,11 +55,11 @@
       <div class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-md-7 col-sm-7">
+            <div class="col-md-7 col-sm-7 col-xs-12">
               <h1 class="font_w_600">The simplest cloud platform for developers & teams</h1>
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
             </div>
-            <div class="col-md-5 col-sm-5 box_bg_one">
+            <div class="col-md-5 col-sm-5 col-xs-12 box_bg_one">
               <h2 class="text-center font_w_600">Deploy your app in seconds.</h2>
               <h2 class="text-center font_w_600">Get started now</h2>
               <form>
@@ -70,7 +75,7 @@
                 <img src="assets/google-icon.png" alt="Google Logo">
                 Sign up with google
               </button>
-              <p class="text-center">By signing up you agree to the
+              <p class="text-center pd_bottom_30">By signing up you agree to the
                 <a href="#">Terms of Service.</a>
               </p>
             </div>
@@ -84,48 +89,48 @@
       <section class="brand_sec bg_grey">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
               <p class="font_w_600 color_p">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p>
             </div>
-            <div class="col-md-12 brand_image">
+            <div class="col-md-12 col-sm-12 col-xs-12 brand_image">
               <div class="row">
-                <div class="col-md-2 pd_0 text-center">
+                <div class="col-md-2 col-sm-2 col-xs-6 pd_0 text-center">
                   <img src="assets/docker.png" alt="Docker Logo">
                 </div>
-                <div class="col-md-2 pd_0 text-center">
+                <div class="col-md-2 col-sm-2 col-xs-6 pd_0 text-center">
                   <img src="assets/gitlab.png" alt="Gitlab Logo">
                 </div>
-                <div class="col-md-2 pd_0 text-center">
+                <div class="col-md-2 col-sm-2 col-xs-6 pd_0 text-center">
                   <img src="assets/slack.png" alt="Slack Logo">
                 </div>
-                <div class="col-md-2 pd_0 text-center">
+                <div class="col-md-2 col-sm-2 col-xs-6 pd_0 text-center">
                   <img src="assets/hashicorp.png" alt="Hashicorp Logo">
                 </div>
-                <div class="col-md-2 pd_0 text-center">
+                <div class="col-md-2 col-sm-2 col-xs-6 pd_0 text-center">
                   <img src="assets/hashicorp.png" alt="Hashicorp Logo">
                 </div>
-                <div class="col-md-2 pd_0 text-center">
+                <div class="col-md-2 col-sm-2 col-xs-6 pd_0 text-center">
                   <img src="assets/splunk.png" alt="Splunk Logo">
                 </div>
               </div>
             </div>
-            <div class="col-md-12 text-center brand_p">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center brand_p">
               <a href="#">View customers stories ></a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="pd_bottom_50">
+      <section class="pd_bottom_50 pd_top_50">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center sec_two_title">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center sec_two_title">
               <h2 class="font_w_600 title_section">Deploy and scale seamlessly</h2>
               <p class="font_w_500 color_p">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-xs-12 pd_top_50">
               <div class="row">
-                <div class="col-md-2 col-md-offset-1 sec_two_list">
+                <div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-12 sec_two_list">
                   <ul class="list-unstyled font_w_500 color_p">
                     <li>Deploy</li>
                     <li>Menage</li>
@@ -134,28 +139,36 @@
                     <li>Monitor</li>
                   </ul>
                 </div>
-                <div class="col-md-4 sec_two_info_first">
+                <div class="col-md-4 col-sm-4 col-xs-12 box_info_one">
                   <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12 sec_two_info ">
                       <img src="assets/cluster-deploy.svg" alt="Cluster deployments Image">
                       <h4 class="font_w_600">Claster deployments</h4>
                       <p class="font_w_500 color_p">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
                     </div>
-                    <div class="col-md-12 pd_top_40">
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 box_info_two">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 pd_bottom_50 sec_two_info">
+                      <img src="assets/optimized-compute.svg" alt="Optimized compute types Image">
+                      <h4 class="font_w_600">Optimized compute types</h4>
+                      <p class="font_w_500 color_p">Get the compute resources you need with Standard or Optimized Droplets.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 box_info_three">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 sec_two_info">
                       <img src="assets/one-click.svg" alt="One-click apps Image">
                       <h4 class="font_w_600">One-click apps</h4>
                       <p class="font_w_500 color_p">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 sec_two_info_second">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                   <div class="row">
-                    <div class="col-md-12">
-                      <img src="assets/optimized-compute.svg" alt="Optimized compute types Image">
-                      <h4 class="font_w_600">Optimized compute types</h4>
-                      <p class="font_w_500 color_p">Get the compute resources you need with Standard or Optimized Droplets.</p>
-                    </div>
-                    <div class="col-md-12 pd_top_60">
+                    <div class="col-md-12 col-sm-12 col-xs-12 sec_two_info">
                       <img src="assets/global.svg" alt="Global availability Image">
                       <h4 class="font_w_600">Global availability</h4>
                       <p class="font_w_500 color_p">Deploy to any of our data center regions around the world.</p>
@@ -171,16 +184,18 @@
       <section class="bg_grey slider_one">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 sec_three_title">
+            <div class="col-md-12 col-sm-12 col-xs-12 sec_three_title">
               <h2 class="font_w_600 text-center title_section">Designed for developers</h2>
               <p class="font_w_500 text-center color_p">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
             </div>
-            <div class="col-md-6 col-md-offset-3 text-center">
-              <!-- <i class="fas fa-angle-left arrow_banner_left"></i> -->
-              <img class="width_banner" src="assets/create-droplet.jpg" alt="Create droplet Image">
-              <!-- <i class="fas fa-angle-right arrow_banner_right"></i> -->
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 text-center">
+              <div class="pos_rel">
+                <i class="fas fa-angle-left arrow_banner_left"></i>
+                <img class="width_banner" src="assets/create-droplet.jpg" alt="Create droplet Image">
+                <i class="fas fa-angle-right arrow_banner_right"></i>
+              </div>
             </div>
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
               <p class="font_w_500 sec_three_sm_text">Create compute servers in 55 seconds or less</p>
               <ul class="list-inline sec_three_sm_dot">
                 <li>
@@ -204,22 +219,22 @@
       <section class="pd_bottom_50 pd_top_50">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
               <h2 class="font_w_600 pd_bottom_30 title_section">The features your business needs</h2>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-xs-12">
               <img src="assets/pred-pricing.svg" alt="Predicable pricing Image">
               <h4 class="font_w_600">Predicable pricing</h4>
               <p class="color_p">Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
               <a href="#">Pricing ></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-xs-12">
               <img src="assets/world-class.svg" alt="World-class Image">
               <h4 class="font_w_600">World-class service</h4>
               <p class="color_p">Free round-the-clock technical support for all customers. You'll feel the love.</p>
               <a href="#">Support ></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-xs-12">
               <img src="assets/reliable-platform.svg" alt="Reliable platform Image">
               <h4 class="font_w_600 ">Reliable platform</h4>
               <p class="color_p">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
@@ -232,13 +247,13 @@
       <section class="bg_blue pd_top_50 pd_bottom_50">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
               <h2 class=" text-center font_w_600 title_white title_section pd_bottom_30">Service your customers around the world from 12 regions.</h2>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <table class="table">
                 <tr>
-                  <td class="border">AMS2</td>
+                  <td>AMS2</td>
                   <td>Amsterdam, Netherlands</td>
                   <td>
                     <a href="#"> Test speed ></a>
@@ -281,7 +296,7 @@
                 </tr>
               </table>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <table class="table">
                 <tr>
                   <td class="border">AMS2</td>
@@ -334,17 +349,21 @@
       <section class="bg_grey pd_top_40 pd_bottom_30 slider_two">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
               <h2 class="font_w_600 text-center title_section pd_bottom_60">Development teams love DigitalOcean</h2>
             </div>
-            <div class="col-md-6 col-md-offset-3 text-center pd_top_50 pd_bottom_50 box_bg_two">
-              <img src="assets/rockerbox-logo.png" alt="Rockerbox Logo">
-              <p class="color_p font_w_600 pd_top_30">"We have been able to make scaling the technical infrastructure or our business cost effective and efficient"</p>
-              <h5 class="font_w_600">Rick O'Toole</h5>
-              <h6 class="pd_bottom_30">Co-founder and CTO</h6>
-              <a href="#">Read story ></a>
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 text-center pd_top_50 pd_bottom_50 pos_rel">
+              <i class="fas fa-angle-left arrow_banner_left left"></i>
+              <div class="box_bg_two pd_bottom_50 pd_top_50">
+                <img src="assets/rockerbox-logo.png" alt="Rockerbox Logo">
+                <p class="color_p font_w_600 pd_top_30">"We have been able to make scaling the technical infrastructure or our business cost effective and efficient"</p>
+                <h5 class="font_w_600">Rick O'Toole</h5>
+                <h6 class="pd_bottom_30">Co-founder and CTO</h6>
+                <a href="#">Read story ></a>
+              </div>
+              <i class="fas fa-angle-right arrow_banner_right right"></i>
             </div>
-            <div class="col-md-12 text-center pd_top_30">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
               <ul class="list-inline sec_three_sm_dot">
                 <li>
                   <i class="fas fa-circle"></i>
@@ -367,10 +386,10 @@
       <section class="bg_blue">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
               <h2 class="font_w_600 text-center title_section title_white pd_top_40 pd_bottom_30">Get started now</h2>
             </div>
-            <div class="col-md-12 text-center pd_bottom_40">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center pd_bottom_40">
               <button type="button" class="btn btn-default btn_create font_w_500">Create your account</button>
             </div>
           </div>
@@ -380,7 +399,7 @@
       <footer class="bg_darkblue pd_top_40 pd_bottom_60">
         <div class="container">
           <div class="row mg">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-12 col-xs-12">
               <a href="#">
                 <img src="assets/logo-small.svg" alt="DigitalOcean Small Logo">
               </a>
@@ -414,7 +433,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-md-2 text-left">
+            <div class="col-md-2 col-sm-6 col-xs-12  text-left">
               <h5 class="font_w_600 title_white_foot">Company</h5>
               <ul class="list-unstyled color_list_foot">
                 <li><a href="#">About</a></li>
@@ -429,7 +448,7 @@
                 <li><a href="#">Legal & Security</a></li>
               </ul>
             </div>
-            <div class="col-md-2 text-left">
+            <div class="col-md-2 col-sm-6 col-xs-12 text-left">
               <h5 class="font_w_600 title_white_foot">Products</h5>
               <ul class="list-unstyled  color_list_foot">
                 <li><a href="#">Droplets</a></li>
@@ -445,7 +464,7 @@
                 <li><a href="#">Release Notes</a></li>
               </ul class="list-unstyled">
             </div>
-            <div class="col-md-2 text-left">
+            <div class="col-md-2 col-sm-6 col-xs-12 text-left">
               <h5 class="font_w_600 title_white_foot">Community</h5>
               <ul class="list-unstyled  color_list_foot">
                 <li><a href="#">Tutorials</a></li>
@@ -460,7 +479,7 @@
                 <li><a href="#">Open Source</a></li>
               </ul>
             </div>
-            <div class="col-md-2 text-left">
+            <div class="col-md-2 col-sm-6 col-xs-12 text-left">
               <h5 class="font_w_600 title_white_foot">Support</h5>
               <ul class="list-unstyled  color_list_foot">
                 <li><a href="#">Contact support</a></li>
@@ -471,6 +490,19 @@
           </div>
         </div>
       </footer>
+
+
+      <div id="help">
+        <div class="container-fluid">
+          <div class="tool">
+            <p>Can I help answer any questions you have about DigitalOcean?</p>
+          </div>
+          <a href="#">
+            <img src="assets/chat-img.png" alt="Chat Image">
+          </a>
+        </div>
+      </div>
+
 
     </main>
 
