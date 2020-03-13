@@ -448,7 +448,7 @@ table tr:first-child td {
 @media all and (min-width: 768px) and (max-width: 991px) {
   /* NAVBAR */
   .hamburger {
-    padding-top: 13px;
+    line-height: 50px;
   }
 
   /* JUMBOTRON */
@@ -470,6 +470,13 @@ table tr:first-child td {
   .slider_one img {
   }
 
+  /* SECTION SIX */
+  .box_bg_two {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+
   /* HELP */
   #help {
     left: 0;
@@ -483,7 +490,6 @@ table tr:first-child td {
     bottom: 50px;
     left: 15px;
   }
-
 
   #help a {
     position: absolute;
@@ -502,8 +508,7 @@ table tr:first-child td {
 @media all and (max-width: 767px) {
   /* NAVBAR */
   .hamburger {
-    padding-right: 10px;
-    padding-top: 13px;
+    line-height: 50px;
   }
 
   /* JUMBOTRON */
@@ -545,10 +550,20 @@ table tr:first-child td {
     display: none;
   }
 
+  /* SECTION FOUR */
+  .features {
+    padding-top: 25px;
+    padding-right: 0px;
+  }
 
   /* SECTION SIX */
   .slider_two img {
     max-width: 100%;
+  }
+
+  .box_bg_two {
+    padding-bottom: 25px;
+    padding-top: 25px;
   }
 
   .arrow_banner_left,
