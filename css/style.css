@@ -403,6 +403,25 @@ table tr:first-child td {
   color: #212063;
 }
 
+#help a {
+  position:relative;
+}
+
+.bg_message {
+  width: 25px;
+  background: rgba(255, 0, 0, 1);
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.message {
+  position: absolute;
+  right: -15%;
+  bottom: 185%;
+  color: #fff;
+}
+
 #help img {
   width: 65px;
   height: 55px;
@@ -449,6 +468,31 @@ table tr:first-child td {
 
   /* SECTION THREE */
   .slider_one img {
+  }
+
+  /* HELP */
+  #help {
+    left: 0;
+  }
+
+  .tool {
+    margin-bottom: 50px;
+  }
+
+  .tool::before {
+    bottom: 50px;
+    left: 15px;
+  }
+
+
+  #help a {
+    position: absolute;
+    transform: translate(-317px, -70px);
+  }
+
+  .message {
+    right: -15%;
+    bottom: 85%;
   }
 
 }
@@ -516,7 +560,28 @@ table tr:first-child td {
     font-size: 14px;
   }
 
+  /* HELP */
+  #help {
+    left: 0;
+  }
 
+  .tool {
+    margin-bottom: 50px;
+  }
 
+  .tool::before {
+    bottom: 50px;
+    left: 15px;
+  }
+
+  #help a {
+    position: absolute;
+    transform: translate(-317px, -70px);
+  }
+
+  .message {
+    right: -15%;
+    bottom: 85%;
+  }
 
 }
