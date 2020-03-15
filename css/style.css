@@ -271,15 +271,8 @@ button img {
 
 .slider_one img {
   width: 400px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.slider_one i {
-  position: absolute;
-  top: 50%;
-  left: %;
-  transform: translatex(-50%);
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 
@@ -441,6 +434,11 @@ table tr:first-child td {
     margin-right: 0px;
     font-size: 48px;
   }
+
+  /* SECTIONE ONE */
+  .brand_sec img {
+    width: 140px;
+  }
 }
 
 
@@ -467,7 +465,16 @@ table tr:first-child td {
   }
 
   /* SECTION THREE */
-  .slider_one img {
+  .arrow_banner_left {
+    padding-right: 0px;
+  }
+
+  .arrow_banner_right {
+    padding-left: 0px;
+  }
+
+  .sec_three_sm_dot {
+    padding-top: 50px;
   }
 
   /* SECTION SIX */
@@ -508,19 +515,22 @@ table tr:first-child td {
 @media all and (max-width: 767px) {
   /* NAVBAR */
   .hamburger {
+    margin-right: 20px;
     line-height: 50px;
   }
 
   /* JUMBOTRON */
   .box_bg_one {
-    margin-left: 0px;
+    /* max-width: 100%; */
+    width: 95%;
+    margin-left: 9px;
     margin-right: 0px;
   }
 
   /* SECTION ONE */
-  .brand_sec img {
+  /* .brand_sec img {
     width: 135px;
-  }
+  } */
 
   /* SECTION TWO */
   .sec_two_list {
@@ -548,6 +558,10 @@ table tr:first-child td {
   .arrow_banner_left,
   .arrow_banner_right {
     display: none;
+  }
+
+  .sec_three_sm_dot {
+    padding-top: 50px;
   }
 
   /* SECTION FOUR */
